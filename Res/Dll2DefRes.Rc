@@ -1,0 +1,4 @@
+#define MANIFEST 						24
+1						MANIFEST  DISCARDABLE "Dll2Def.xml"
+100						ICON      DISCARDABLE "gears.ico"
+101						ICON      DISCARDABLE "Cmd.ico"

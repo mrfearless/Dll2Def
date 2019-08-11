@@ -1,0 +1,2 @@
+#include "Res/Dll2DefVer.rc"
+#include "Res/Dll2DefRes.rc"
