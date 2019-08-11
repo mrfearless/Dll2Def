@@ -105,9 +105,9 @@ TotalCmdLineParameters          DD 0
 ; Help
 szDll2DefConName                DB "Dll2Def",0
 szDll2DefConInfoStart           DB 13,10,"[",0
-szDll2DefConInfoFinish          DB "] v1.00 - Create an export defintion file from a Dll - 2019 fearless",13,10,13,10,0
+szDll2DefConInfoFinish          DB "] v1.00 - Create an export definition file from a Dll - 2019 fearless",13,10,13,10,0
 
-szDll2DefConInfo                DB 13,10,"[Dll2Def] v1.00 - Create an export defintion file from a Dll - 2019 fearless",13,10,13,10,0
+szDll2DefConInfo                DB 13,10,"[Dll2Def] v1.00 - Create an export definition file from a Dll - 2019 fearless",13,10,13,10,0
 
 szDll2DefConAbout               DB "About:",13,10
                                 DB "========",13,10
@@ -127,9 +127,9 @@ szDll2DefConHelp                DB 13,10
                                 DB "  <infilename>  name of a valid dll file to process.",13,10
                                 DB "                Supports the use of wildcards * and ? for batch operations.",13,10
                                 DB 13,10
-                                DB "  <outfilename> (optional) is name of the definiton file",13,10
-                                DB "                to create. Defaults to the dllfilename with .def extension.",13,10
-                                DB "                Note: cannot use wildcards if specifying outfilename.",13,10
+                                DB "  <outfilename> (optional) is name of the definition file",13,10
+                                DB "                to create. Defaults to the <infilename> with .def extension.",13,10
+                                DB "                Note: cannot use wildcards if specifying <outfilename>.",13,10
                                 DB 13,10
                                 DB "  <infilespec>  is the use of wildcards (*.dll) to process.",13,10
                                 DB 13,10
